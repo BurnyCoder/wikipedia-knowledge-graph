@@ -2,6 +2,10 @@
 
 An interactive knowledge graph visualization that connects Wikipedia articles starting from key science and mathematics topics.
 
+<img width="1884" height="894" alt="image" src="https://github.com/user-attachments/assets/d555f22b-8f57-491b-9460-b872d231a7d3" />
+
+<img width="1099" height="1079" alt="image" src="https://github.com/user-attachments/assets/6faea7e3-7782-44ba-806f-3bfeec58406f" />
+
 ## Features
 
 - **Interactive Force-Directed Graph**: Visualizes connections between Wikipedia articles
