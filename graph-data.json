@@ -1,0 +1,2826 @@
+{
+  "nodes": [
+    {
+      "id": "Science",
+      "label": "Science",
+      "isPrimary": true,
+      "size": 30
+    },
+    {
+      "id": "Natural science",
+      "label": "Natural science",
+      "isPrimary": true,
+      "size": 30
+    },
+    {
+      "id": "Formal science",
+      "label": "Formal science",
+      "isPrimary": true,
+      "size": 30
+    },
+    {
+      "id": "Mathematics",
+      "label": "Mathematics",
+      "isPrimary": true,
+      "size": 30
+    },
+    {
+      "id": "Physics",
+      "label": "Physics",
+      "isPrimary": true,
+      "size": 30
+    },
+    {
+      "id": "Artificial intelligence",
+      "label": "Artificial intelligence",
+      "isPrimary": true,
+      "size": 30
+    },
+    {
+      "id": "19th century in science",
+      "label": "19th century in science",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "20th century in science",
+      "label": "20th century in science",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "21st century",
+      "label": "21st century",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "A Treatise of Human Nature",
+      "label": "A Treatise of Human Nature",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "A priori",
+      "label": "A priori",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "A priori and a posteriori",
+      "label": "A priori and a posteriori",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Abstract structure",
+      "label": "Abstract structure",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Academia",
+      "label": "Academia",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Academic bias",
+      "label": "Academic bias",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Academic conference",
+      "label": "Academic conference",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Academic freedom",
+      "label": "Academic freedom",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Academic institution",
+      "label": "Academic institution",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Academic journal",
+      "label": "Academic journal",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Academy of Gondishapur",
+      "label": "Academy of Gondishapur",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Academy of sciences",
+      "label": "Academy of sciences",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Accademia dei Lincei",
+      "label": "Accademia dei Lincei",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Accretion disc",
+      "label": "Accretion disc",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Actor–network theory",
+      "label": "Actor–network theory",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Adam Ferguson",
+      "label": "Adam Ferguson",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Adam Smith",
+      "label": "Adam Smith",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Administration (government)",
+      "label": "Administration (government)",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Advocacy group",
+      "label": "Advocacy group",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Age of Enlightenment",
+      "label": "Age of Enlightenment",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Agent-based computational economics",
+      "label": "Agent-based computational economics",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Aggregate statistics",
+      "label": "Aggregate statistics",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Albert Einstein",
+      "label": "Albert Einstein",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Alessandro Vespignani",
+      "label": "Alessandro Vespignani",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Alfred North Whitehead",
+      "label": "Alfred North Whitehead",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Alfred Russel Wallace",
+      "label": "Alfred Russel Wallace",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Almagest",
+      "label": "Almagest",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Alternative hypothesis",
+      "label": "Alternative hypothesis",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Amanda Chetwynd",
+      "label": "Amanda Chetwynd",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "American Philosophical Society",
+      "label": "American Philosophical Society",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Analytic–synthetic distinction",
+      "label": "Analytic–synthetic distinction",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Anatomy",
+      "label": "Anatomy",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Anaximander",
+      "label": "Anaximander",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Anaximenes of Miletus",
+      "label": "Anaximenes of Miletus",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Ancient Egypt",
+      "label": "Ancient Egypt",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Ancient Greece",
+      "label": "Ancient Greece",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Ancient Greek literature",
+      "label": "Ancient Greek literature",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "André-Marie Ampère",
+      "label": "André-Marie Ampère",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Anglo-Norman language",
+      "label": "Anglo-Norman language",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Animal behavior",
+      "label": "Animal behavior",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Animal physiology",
+      "label": "Animal physiology",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Anjali Nayar",
+      "label": "Anjali Nayar",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Annals of Science",
+      "label": "Annals of Science",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Anthropocene",
+      "label": "Anthropocene",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Anthropology",
+      "label": "Anthropology",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Anti-intellectualism",
+      "label": "Anti-intellectualism",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Anti-realism",
+      "label": "Anti-realism",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "ASIN (identifier)",
+      "label": "ASIN (identifier)",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Abbasid Caliphate",
+      "label": "Abbasid Caliphate",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Aether (classical element)",
+      "label": "Aether (classical element)",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Al-Farabi",
+      "label": "Al-Farabi",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Albertus Magnus",
+      "label": "Albertus Magnus",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Alchemy",
+      "label": "Alchemy",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Alcohol (disambiguation)",
+      "label": "Alcohol (disambiguation)",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Alessandro Volta",
+      "label": "Alessandro Volta",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Algebra",
+      "label": "Algebra",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Allium",
+      "label": "Allium",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Ancient China",
+      "label": "Ancient China",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Ancient India",
+      "label": "Ancient India",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Ancient Rome",
+      "label": "Ancient Rome",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Antoine Lavoisier",
+      "label": "Antoine Lavoisier",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Apollo 11",
+      "label": "Apollo 11",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Applied physics",
+      "label": "Applied physics",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Applied science",
+      "label": "Applied science",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Arabic",
+      "label": "Arabic",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Aristotle",
+      "label": "Aristotle",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Aristotle's biology",
+      "label": "Aristotle's biology",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Arts",
+      "label": "Arts",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Asteroids",
+      "label": "Asteroids",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Astrobiology",
+      "label": "Astrobiology",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Astrochemistry",
+      "label": "Astrochemistry",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Astronomia Nova",
+      "label": "Astronomia Nova",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Astronomical object",
+      "label": "Astronomical object",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Astronomy",
+      "label": "Astronomy",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Astrophysics",
+      "label": "Astrophysics",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Atmosphere of Earth",
+      "label": "Atmosphere of Earth",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Atmospheric pressure",
+      "label": "Atmospheric pressure",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Atmospheric science",
+      "label": "Atmospheric science",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Atmospheric sciences",
+      "label": "Atmospheric sciences",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Atom",
+      "label": "Atom",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Atomic orbital",
+      "label": "Atomic orbital",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Atomic theory",
+      "label": "Atomic theory",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Atomism",
+      "label": "Atomism",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Ayurvedic",
+      "label": "Ayurvedic",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Barometer",
+      "label": "Barometer",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Bee",
+      "label": "Bee",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Behaviors",
+      "label": "Behaviors",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Behavioural sciences",
+      "label": "Behavioural sciences",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Bile",
+      "label": "Bile",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Binomial nomenclature",
+      "label": "Binomial nomenclature",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Abstraction (computer science)",
+      "label": "Abstraction (computer science)",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Abstraction (mathematics)",
+      "label": "Abstraction (mathematics)",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Axioms",
+      "label": "Axioms",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Bernt P. Stigum",
+      "label": "Bernt P. Stigum",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Branches of science",
+      "label": "Branches of science",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "C. West Churchman",
+      "label": "C. West Churchman",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Cognitive science",
+      "label": "Cognitive science",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Computer science",
+      "label": "Computer science",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Cryptography",
+      "label": "Cryptography",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Data science",
+      "label": "Data science",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Decision theory",
+      "label": "Decision theory",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Definitions",
+      "label": "Definitions",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Empirical",
+      "label": "Empirical",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Form and content",
+      "label": "Form and content",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Formal grammar",
+      "label": "Formal grammar",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Formal language",
+      "label": "Formal language",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Formal methods",
+      "label": "Formal methods",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Formal system",
+      "label": "Formal system",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Formal systems",
+      "label": "Formal systems",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Formalism (philosophy of mathematics)",
+      "label": "Formalism (philosophy of mathematics)",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Funding of science",
+      "label": "Funding of science",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Game theory",
+      "label": "Game theory",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "History of science",
+      "label": "History of science",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "ISBN (identifier)",
+      "label": "ISBN (identifier)",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Information theory",
+      "label": "Information theory",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "James Franklin (philosopher)",
+      "label": "James Franklin (philosopher)",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Karl Popper",
+      "label": "Karl Popper",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "List of life sciences",
+      "label": "List of life sciences",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Logic",
+      "label": "Logic",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Logical positivism",
+      "label": "Logical positivism",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "MIT Press",
+      "label": "MIT Press",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Mario Bunge",
+      "label": "Mario Bunge",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Mathematical model",
+      "label": "Mathematical model",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Mathematical sciences",
+      "label": "Mathematical sciences",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Mathematical statistics",
+      "label": "Mathematical statistics",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Mathematics Subject Classification",
+      "label": "Mathematics Subject Classification",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "OCLC (identifier)",
+      "label": "OCLC (identifier)",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Outline of physical science",
+      "label": "Outline of physical science",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Outline of science",
+      "label": "Outline of science",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Philosophy",
+      "label": "Philosophy",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Philosophy of science",
+      "label": "Philosophy of science",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Physical systems",
+      "label": "Physical systems",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "A Mathematician's Apology",
+      "label": "A Mathematician's Apology",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Abel Prize",
+      "label": "Abel Prize",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Abstract algebra",
+      "label": "Abstract algebra",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Accountant",
+      "label": "Accountant",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Actually infinite",
+      "label": "Actually infinite",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Actuary",
+      "label": "Actuary",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Addison-Wesley Publishing Company",
+      "label": "Addison-Wesley Publishing Company",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Addition",
+      "label": "Addition",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Adrien-Marie Legendre",
+      "label": "Adrien-Marie Legendre",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Advances in Mathematics",
+      "label": "Advances in Mathematics",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Aesthetic",
+      "label": "Aesthetic",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Affine geometry",
+      "label": "Affine geometry",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Al-Jabr",
+      "label": "Al-Jabr",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Al-Khwarizmi",
+      "label": "Al-Khwarizmi",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Alan Sokal",
+      "label": "Alan Sokal",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Alfred Tarski",
+      "label": "Alfred Tarski",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Algebraic geometry",
+      "label": "Algebraic geometry",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Algebraic number theory",
+      "label": "Algebraic number theory",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Algebraic structure",
+      "label": "Algebraic structure",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Algebraic topology",
+      "label": "Algebraic topology",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Algorithm",
+      "label": "Algorithm",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "American Mathematical Society",
+      "label": "American Mathematical Society",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Amir Alexander",
+      "label": "Amir Alexander",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Amy Roth McDuffie",
+      "label": "Amy Roth McDuffie",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Analysis (mathematics)",
+      "label": "Analysis (mathematics)",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Analytic geometry",
+      "label": "Analytic geometry",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Analytic number theory",
+      "label": "Analytic number theory",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Ancient Greek",
+      "label": "Ancient Greek",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Ancient Greek mathematicians",
+      "label": "Ancient Greek mathematicians",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Ancient Greeks",
+      "label": "Ancient Greeks",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Ancient Near East",
+      "label": "Ancient Near East",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Andrew Wiles",
+      "label": "Andrew Wiles",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "André Weil",
+      "label": "André Weil",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Angle",
+      "label": "Angle",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Apery's theorem",
+      "label": "Apery's theorem",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Apodictic",
+      "label": "Apodictic",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Apollonius of Perga",
+      "label": "Apollonius of Perga",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Applied mathematics",
+      "label": "Applied mathematics",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Approximation",
+      "label": "Approximation",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Approximation theory",
+      "label": "Approximation theory",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "ArXiv (identifier)",
+      "label": "ArXiv (identifier)",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Archimedes",
+      "label": "Archimedes",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Architecture",
+      "label": "Architecture",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Archive.today",
+      "label": "Archive.today",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "A Greek–English Lexicon",
+      "label": "A Greek–English Lexicon",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "About.com",
+      "label": "About.com",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Academic discipline",
+      "label": "Academic discipline",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Accelerator physics",
+      "label": "Accelerator physics",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Acoustic engineering",
+      "label": "Acoustic engineering",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Acoustical Society of America",
+      "label": "Acoustical Society of America",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Acoustics",
+      "label": "Acoustics",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Action (physics)",
+      "label": "Action (physics)",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Active learning",
+      "label": "Active learning",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "AdS/CFT correspondence",
+      "label": "AdS/CFT correspondence",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Agrophysics",
+      "label": "Agrophysics",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Al-Kindi",
+      "label": "Al-Kindi",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Amber",
+      "label": "Amber",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "American Physical Society",
+      "label": "American Physical Society",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Analytic solution",
+      "label": "Analytic solution",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Analytical dynamics",
+      "label": "Analytical dynamics",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Analytical mechanics",
+      "label": "Analytical mechanics",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Andrea Liu",
+      "label": "Andrea Liu",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Antiferromagnet",
+      "label": "Antiferromagnet",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Antimatter",
+      "label": "Antimatter",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Applied research",
+      "label": "Applied research",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "ArXiv.org",
+      "label": "ArXiv.org",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Archaeology",
+      "label": "Archaeology",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Archaic Greece",
+      "label": "Archaic Greece",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Archimedes' screw",
+      "label": "Archimedes' screw",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Archimedes Palimpsest",
+      "label": "Archimedes Palimpsest",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Aristotelian physics",
+      "label": "Aristotelian physics",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Asger Aaboe",
+      "label": "Asger Aaboe",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Astrometry",
+      "label": "Astrometry",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Astronaut",
+      "label": "Astronaut",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Astronomical ceiling of Senemut Tomb",
+      "label": "Astronomical ceiling of Senemut Tomb",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Astroparticle physics",
+      "label": "Astroparticle physics",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Atmospheric physics",
+      "label": "Atmospheric physics",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Atomic, molecular, and optical physics",
+      "label": "Atomic, molecular, and optical physics",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Atomic and molecular astrophysics",
+      "label": "Atomic and molecular astrophysics",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Atomic nuclei",
+      "label": "Atomic nuclei",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Atomic nucleus",
+      "label": "Atomic nucleus",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "15.ai",
+      "label": "15.ai",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "2001: A Space Odyssey",
+      "label": "2001: A Space Odyssey",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "2001: A Space Odyssey (novel)",
+      "label": "2001: A Space Odyssey (novel)",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "2024 Indian general election",
+      "label": "2024 Indian general election",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "3D optical data storage",
+      "label": "3D optical data storage",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "A* search algorithm",
+      "label": "A* search algorithm",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "A.I. Artificial Intelligence",
+      "label": "A.I. Artificial Intelligence",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "AAAI",
+      "label": "AAAI",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "ABB",
+      "label": "ABB",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "ACM Computing Classification System",
+      "label": "ACM Computing Classification System",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "ACM Conference on Fairness, Accountability, and Transparency",
+      "label": "ACM Conference on Fairness, Accountability, and Transparency",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "ACM SIGPLAN Notices",
+      "label": "ACM SIGPLAN Notices",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "AI-assisted software development",
+      "label": "AI-assisted software development",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "AI-generated content on Wikipedia",
+      "label": "AI-generated content on Wikipedia",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "AI (disambiguation)",
+      "label": "AI (disambiguation)",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "AI Overviews",
+      "label": "AI Overviews",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "AI Safety Institute (United Kingdom)",
+      "label": "AI Safety Institute (United Kingdom)",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "AI Safety Summit",
+      "label": "AI Safety Summit",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "AI Seoul Summit",
+      "label": "AI Seoul Summit",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "AI Winter",
+      "label": "AI Winter",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "AI aftermath scenarios",
+      "label": "AI aftermath scenarios",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "AI alignment",
+      "label": "AI alignment",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "AI art",
+      "label": "AI art",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "AI boom",
+      "label": "AI boom",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "AI bubble",
+      "label": "AI bubble",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "AI capability control",
+      "label": "AI capability control",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "AI effect",
+      "label": "AI effect",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "AI safety",
+      "label": "AI safety",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "AI takeover",
+      "label": "AI takeover",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "AI winter",
+      "label": "AI winter",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "ALGOL 60",
+      "label": "ALGOL 60",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Abductive reasoning",
+      "label": "Abductive reasoning",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Abstract and concrete",
+      "label": "Abstract and concrete",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Academic research",
+      "label": "Academic research",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Accelerating change",
+      "label": "Accelerating change",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Action selection",
+      "label": "Action selection",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Activation function",
+      "label": "Activation function",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "AdSense",
+      "label": "AdSense",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Adaptable robotics",
+      "label": "Adaptable robotics",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Adobe Firefly",
+      "label": "Adobe Firefly",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Advanced driver-assistance system",
+      "label": "Advanced driver-assistance system",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Adversarial machine learning",
+      "label": "Adversarial machine learning",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Adversarial search",
+      "label": "Adversarial search",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Aerobot",
+      "label": "Aerobot",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Aeronautics",
+      "label": "Aeronautics",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Affect (psychology)",
+      "label": "Affect (psychology)",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Affective computing",
+      "label": "Affective computing",
+      "isPrimary": false,
+      "size": 10
+    },
+    {
+      "id": "Agency (philosophy)",
+      "label": "Agency (philosophy)",
+      "isPrimary": false,
+      "size": 10
+    }
+  ],
+  "links": [
+    {
+      "source": "Science",
+      "target": "19th century in science"
+    },
+    {
+      "source": "Science",
+      "target": "20th century in science"
+    },
+    {
+      "source": "Science",
+      "target": "21st century"
+    },
+    {
+      "source": "Science",
+      "target": "A Treatise of Human Nature"
+    },
+    {
+      "source": "Science",
+      "target": "A priori"
+    },
+    {
+      "source": "Science",
+      "target": "A priori and a posteriori"
+    },
+    {
+      "source": "Science",
+      "target": "Abstract structure"
+    },
+    {
+      "source": "Science",
+      "target": "Academia"
+    },
+    {
+      "source": "Science",
+      "target": "Academic bias"
+    },
+    {
+      "source": "Science",
+      "target": "Academic conference"
+    },
+    {
+      "source": "Science",
+      "target": "Academic freedom"
+    },
+    {
+      "source": "Science",
+      "target": "Academic institution"
+    },
+    {
+      "source": "Science",
+      "target": "Academic journal"
+    },
+    {
+      "source": "Science",
+      "target": "Academy of Gondishapur"
+    },
+    {
+      "source": "Science",
+      "target": "Academy of sciences"
+    },
+    {
+      "source": "Science",
+      "target": "Accademia dei Lincei"
+    },
+    {
+      "source": "Science",
+      "target": "Accretion disc"
+    },
+    {
+      "source": "Science",
+      "target": "Actor–network theory"
+    },
+    {
+      "source": "Science",
+      "target": "Adam Ferguson"
+    },
+    {
+      "source": "Science",
+      "target": "Adam Smith"
+    },
+    {
+      "source": "Science",
+      "target": "Administration (government)"
+    },
+    {
+      "source": "Science",
+      "target": "Advocacy group"
+    },
+    {
+      "source": "Science",
+      "target": "Age of Enlightenment"
+    },
+    {
+      "source": "Science",
+      "target": "Agent-based computational economics"
+    },
+    {
+      "source": "Science",
+      "target": "Aggregate statistics"
+    },
+    {
+      "source": "Science",
+      "target": "Albert Einstein"
+    },
+    {
+      "source": "Science",
+      "target": "Alessandro Vespignani"
+    },
+    {
+      "source": "Science",
+      "target": "Alfred North Whitehead"
+    },
+    {
+      "source": "Science",
+      "target": "Alfred Russel Wallace"
+    },
+    {
+      "source": "Science",
+      "target": "Almagest"
+    },
+    {
+      "source": "Science",
+      "target": "Alternative hypothesis"
+    },
+    {
+      "source": "Science",
+      "target": "Amanda Chetwynd"
+    },
+    {
+      "source": "Science",
+      "target": "American Philosophical Society"
+    },
+    {
+      "source": "Science",
+      "target": "Analytic–synthetic distinction"
+    },
+    {
+      "source": "Science",
+      "target": "Anatomy"
+    },
+    {
+      "source": "Science",
+      "target": "Anaximander"
+    },
+    {
+      "source": "Science",
+      "target": "Anaximenes of Miletus"
+    },
+    {
+      "source": "Science",
+      "target": "Ancient Egypt"
+    },
+    {
+      "source": "Science",
+      "target": "Ancient Greece"
+    },
+    {
+      "source": "Science",
+      "target": "Ancient Greek literature"
+    },
+    {
+      "source": "Science",
+      "target": "André-Marie Ampère"
+    },
+    {
+      "source": "Science",
+      "target": "Anglo-Norman language"
+    },
+    {
+      "source": "Science",
+      "target": "Animal behavior"
+    },
+    {
+      "source": "Science",
+      "target": "Animal physiology"
+    },
+    {
+      "source": "Science",
+      "target": "Anjali Nayar"
+    },
+    {
+      "source": "Science",
+      "target": "Annals of Science"
+    },
+    {
+      "source": "Science",
+      "target": "Anthropocene"
+    },
+    {
+      "source": "Science",
+      "target": "Anthropology"
+    },
+    {
+      "source": "Science",
+      "target": "Anti-intellectualism"
+    },
+    {
+      "source": "Science",
+      "target": "Anti-realism"
+    },
+    {
+      "source": "Natural science",
+      "target": "19th century in science"
+    },
+    {
+      "source": "Natural science",
+      "target": "20th century in science"
+    },
+    {
+      "source": "Natural science",
+      "target": "ASIN (identifier)"
+    },
+    {
+      "source": "Natural science",
+      "target": "Abbasid Caliphate"
+    },
+    {
+      "source": "Natural science",
+      "target": "Academic journal"
+    },
+    {
+      "source": "Natural science",
+      "target": "Aether (classical element)"
+    },
+    {
+      "source": "Natural science",
+      "target": "Al-Farabi"
+    },
+    {
+      "source": "Natural science",
+      "target": "Albert Einstein"
+    },
+    {
+      "source": "Natural science",
+      "target": "Albertus Magnus"
+    },
+    {
+      "source": "Natural science",
+      "target": "Alchemy"
+    },
+    {
+      "source": "Natural science",
+      "target": "Alcohol (disambiguation)"
+    },
+    {
+      "source": "Natural science",
+      "target": "Alessandro Volta"
+    },
+    {
+      "source": "Natural science",
+      "target": "Algebra"
+    },
+    {
+      "source": "Natural science",
+      "target": "Allium"
+    },
+    {
+      "source": "Natural science",
+      "target": "Anatomy"
+    },
+    {
+      "source": "Natural science",
+      "target": "Ancient China"
+    },
+    {
+      "source": "Natural science",
+      "target": "Ancient Egypt"
+    },
+    {
+      "source": "Natural science",
+      "target": "Ancient Greece"
+    },
+    {
+      "source": "Natural science",
+      "target": "Ancient India"
+    },
+    {
+      "source": "Natural science",
+      "target": "Ancient Rome"
+    },
+    {
+      "source": "Natural science",
+      "target": "Antoine Lavoisier"
+    },
+    {
+      "source": "Natural science",
+      "target": "Apollo 11"
+    },
+    {
+      "source": "Natural science",
+      "target": "Applied physics"
+    },
+    {
+      "source": "Natural science",
+      "target": "Applied science"
+    },
+    {
+      "source": "Natural science",
+      "target": "Arabic"
+    },
+    {
+      "source": "Natural science",
+      "target": "Aristotle"
+    },
+    {
+      "source": "Natural science",
+      "target": "Aristotle's biology"
+    },
+    {
+      "source": "Natural science",
+      "target": "Arts"
+    },
+    {
+      "source": "Natural science",
+      "target": "Asteroids"
+    },
+    {
+      "source": "Natural science",
+      "target": "Astrobiology"
+    },
+    {
+      "source": "Natural science",
+      "target": "Astrochemistry"
+    },
+    {
+      "source": "Natural science",
+      "target": "Astronomia Nova"
+    },
+    {
+      "source": "Natural science",
+      "target": "Astronomical object"
+    },
+    {
+      "source": "Natural science",
+      "target": "Astronomy"
+    },
+    {
+      "source": "Natural science",
+      "target": "Astrophysics"
+    },
+    {
+      "source": "Natural science",
+      "target": "Atmosphere of Earth"
+    },
+    {
+      "source": "Natural science",
+      "target": "Atmospheric pressure"
+    },
+    {
+      "source": "Natural science",
+      "target": "Atmospheric science"
+    },
+    {
+      "source": "Natural science",
+      "target": "Atmospheric sciences"
+    },
+    {
+      "source": "Natural science",
+      "target": "Atom"
+    },
+    {
+      "source": "Natural science",
+      "target": "Atomic orbital"
+    },
+    {
+      "source": "Natural science",
+      "target": "Atomic theory"
+    },
+    {
+      "source": "Natural science",
+      "target": "Atomism"
+    },
+    {
+      "source": "Natural science",
+      "target": "Ayurvedic"
+    },
+    {
+      "source": "Natural science",
+      "target": "Barometer"
+    },
+    {
+      "source": "Natural science",
+      "target": "Bee"
+    },
+    {
+      "source": "Natural science",
+      "target": "Behaviors"
+    },
+    {
+      "source": "Natural science",
+      "target": "Behavioural sciences"
+    },
+    {
+      "source": "Natural science",
+      "target": "Bile"
+    },
+    {
+      "source": "Natural science",
+      "target": "Binomial nomenclature"
+    },
+    {
+      "source": "Formal science",
+      "target": "Abstract structure"
+    },
+    {
+      "source": "Formal science",
+      "target": "Abstraction (computer science)"
+    },
+    {
+      "source": "Formal science",
+      "target": "Abstraction (mathematics)"
+    },
+    {
+      "source": "Formal science",
+      "target": "Albert Einstein"
+    },
+    {
+      "source": "Formal science",
+      "target": "Analytic–synthetic distinction"
+    },
+    {
+      "source": "Formal science",
+      "target": "Applied science"
+    },
+    {
+      "source": "Formal science",
+      "target": "Artificial intelligence"
+    },
+    {
+      "source": "Formal science",
+      "target": "Axioms"
+    },
+    {
+      "source": "Formal science",
+      "target": "Behavioural sciences"
+    },
+    {
+      "source": "Formal science",
+      "target": "Bernt P. Stigum"
+    },
+    {
+      "source": "Formal science",
+      "target": "Branches of science"
+    },
+    {
+      "source": "Formal science",
+      "target": "C. West Churchman"
+    },
+    {
+      "source": "Formal science",
+      "target": "Cognitive science"
+    },
+    {
+      "source": "Formal science",
+      "target": "Computer science"
+    },
+    {
+      "source": "Formal science",
+      "target": "Cryptography"
+    },
+    {
+      "source": "Formal science",
+      "target": "Data science"
+    },
+    {
+      "source": "Formal science",
+      "target": "Decision theory"
+    },
+    {
+      "source": "Formal science",
+      "target": "Definitions"
+    },
+    {
+      "source": "Formal science",
+      "target": "Empirical"
+    },
+    {
+      "source": "Formal science",
+      "target": "Form and content"
+    },
+    {
+      "source": "Formal science",
+      "target": "Formal grammar"
+    },
+    {
+      "source": "Formal science",
+      "target": "Formal language"
+    },
+    {
+      "source": "Formal science",
+      "target": "Formal methods"
+    },
+    {
+      "source": "Formal science",
+      "target": "Formal system"
+    },
+    {
+      "source": "Formal science",
+      "target": "Formal systems"
+    },
+    {
+      "source": "Formal science",
+      "target": "Formalism (philosophy of mathematics)"
+    },
+    {
+      "source": "Formal science",
+      "target": "Funding of science"
+    },
+    {
+      "source": "Formal science",
+      "target": "Game theory"
+    },
+    {
+      "source": "Formal science",
+      "target": "History of science"
+    },
+    {
+      "source": "Formal science",
+      "target": "ISBN (identifier)"
+    },
+    {
+      "source": "Formal science",
+      "target": "Information theory"
+    },
+    {
+      "source": "Formal science",
+      "target": "James Franklin (philosopher)"
+    },
+    {
+      "source": "Formal science",
+      "target": "Karl Popper"
+    },
+    {
+      "source": "Formal science",
+      "target": "List of life sciences"
+    },
+    {
+      "source": "Formal science",
+      "target": "Logic"
+    },
+    {
+      "source": "Formal science",
+      "target": "Logical positivism"
+    },
+    {
+      "source": "Formal science",
+      "target": "MIT Press"
+    },
+    {
+      "source": "Formal science",
+      "target": "Mario Bunge"
+    },
+    {
+      "source": "Formal science",
+      "target": "Mathematical model"
+    },
+    {
+      "source": "Formal science",
+      "target": "Mathematical sciences"
+    },
+    {
+      "source": "Formal science",
+      "target": "Mathematical statistics"
+    },
+    {
+      "source": "Formal science",
+      "target": "Mathematics"
+    },
+    {
+      "source": "Formal science",
+      "target": "Mathematics Subject Classification"
+    },
+    {
+      "source": "Formal science",
+      "target": "Natural science"
+    },
+    {
+      "source": "Formal science",
+      "target": "OCLC (identifier)"
+    },
+    {
+      "source": "Formal science",
+      "target": "Outline of physical science"
+    },
+    {
+      "source": "Formal science",
+      "target": "Outline of science"
+    },
+    {
+      "source": "Formal science",
+      "target": "Philosophy"
+    },
+    {
+      "source": "Formal science",
+      "target": "Philosophy of science"
+    },
+    {
+      "source": "Formal science",
+      "target": "Physical systems"
+    },
+    {
+      "source": "Mathematics",
+      "target": "A Mathematician's Apology"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Abel Prize"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Abstract algebra"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Abstraction (mathematics)"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Accountant"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Actually infinite"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Actuary"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Addison-Wesley Publishing Company"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Addition"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Adrien-Marie Legendre"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Advances in Mathematics"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Aesthetic"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Affine geometry"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Al-Jabr"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Al-Khwarizmi"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Alan Sokal"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Albert Einstein"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Alfred Tarski"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Algebra"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Algebraic geometry"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Algebraic number theory"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Algebraic structure"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Algebraic topology"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Algorithm"
+    },
+    {
+      "source": "Mathematics",
+      "target": "American Mathematical Society"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Amir Alexander"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Amy Roth McDuffie"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Analysis (mathematics)"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Analytic geometry"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Analytic number theory"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Ancient China"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Ancient Egypt"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Ancient Greek"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Ancient Greek mathematicians"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Ancient Greeks"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Ancient Near East"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Andrew Wiles"
+    },
+    {
+      "source": "Mathematics",
+      "target": "André Weil"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Angle"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Apery's theorem"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Apodictic"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Apollonius of Perga"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Applied mathematics"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Approximation"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Approximation theory"
+    },
+    {
+      "source": "Mathematics",
+      "target": "ArXiv (identifier)"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Arabic"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Archimedes"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Architecture"
+    },
+    {
+      "source": "Mathematics",
+      "target": "Archive.today"
+    },
+    {
+      "source": "Physics",
+      "target": "A Greek–English Lexicon"
+    },
+    {
+      "source": "Physics",
+      "target": "A priori and a posteriori"
+    },
+    {
+      "source": "Physics",
+      "target": "About.com"
+    },
+    {
+      "source": "Physics",
+      "target": "Academic discipline"
+    },
+    {
+      "source": "Physics",
+      "target": "Accelerator physics"
+    },
+    {
+      "source": "Physics",
+      "target": "Acoustic engineering"
+    },
+    {
+      "source": "Physics",
+      "target": "Acoustical Society of America"
+    },
+    {
+      "source": "Physics",
+      "target": "Acoustics"
+    },
+    {
+      "source": "Physics",
+      "target": "Action (physics)"
+    },
+    {
+      "source": "Physics",
+      "target": "Active learning"
+    },
+    {
+      "source": "Physics",
+      "target": "AdS/CFT correspondence"
+    },
+    {
+      "source": "Physics",
+      "target": "Agrophysics"
+    },
+    {
+      "source": "Physics",
+      "target": "Al-Kindi"
+    },
+    {
+      "source": "Physics",
+      "target": "Albert Einstein"
+    },
+    {
+      "source": "Physics",
+      "target": "Amber"
+    },
+    {
+      "source": "Physics",
+      "target": "American Philosophical Society"
+    },
+    {
+      "source": "Physics",
+      "target": "American Physical Society"
+    },
+    {
+      "source": "Physics",
+      "target": "Analytic solution"
+    },
+    {
+      "source": "Physics",
+      "target": "Analytical dynamics"
+    },
+    {
+      "source": "Physics",
+      "target": "Analytical mechanics"
+    },
+    {
+      "source": "Physics",
+      "target": "Ancient Egypt"
+    },
+    {
+      "source": "Physics",
+      "target": "Ancient Greece"
+    },
+    {
+      "source": "Physics",
+      "target": "Andrea Liu"
+    },
+    {
+      "source": "Physics",
+      "target": "Antiferromagnet"
+    },
+    {
+      "source": "Physics",
+      "target": "Antimatter"
+    },
+    {
+      "source": "Physics",
+      "target": "Applied mathematics"
+    },
+    {
+      "source": "Physics",
+      "target": "Applied physics"
+    },
+    {
+      "source": "Physics",
+      "target": "Applied research"
+    },
+    {
+      "source": "Physics",
+      "target": "ArXiv.org"
+    },
+    {
+      "source": "Physics",
+      "target": "ArXiv (identifier)"
+    },
+    {
+      "source": "Physics",
+      "target": "Archaeology"
+    },
+    {
+      "source": "Physics",
+      "target": "Archaic Greece"
+    },
+    {
+      "source": "Physics",
+      "target": "Archimedes"
+    },
+    {
+      "source": "Physics",
+      "target": "Archimedes' screw"
+    },
+    {
+      "source": "Physics",
+      "target": "Archimedes Palimpsest"
+    },
+    {
+      "source": "Physics",
+      "target": "Aristotelian physics"
+    },
+    {
+      "source": "Physics",
+      "target": "Aristotle"
+    },
+    {
+      "source": "Physics",
+      "target": "Asger Aaboe"
+    },
+    {
+      "source": "Physics",
+      "target": "Astrometry"
+    },
+    {
+      "source": "Physics",
+      "target": "Astronaut"
+    },
+    {
+      "source": "Physics",
+      "target": "Astronomical ceiling of Senemut Tomb"
+    },
+    {
+      "source": "Physics",
+      "target": "Astronomy"
+    },
+    {
+      "source": "Physics",
+      "target": "Astroparticle physics"
+    },
+    {
+      "source": "Physics",
+      "target": "Astrophysics"
+    },
+    {
+      "source": "Physics",
+      "target": "Atmospheric physics"
+    },
+    {
+      "source": "Physics",
+      "target": "Atom"
+    },
+    {
+      "source": "Physics",
+      "target": "Atomic, molecular, and optical physics"
+    },
+    {
+      "source": "Physics",
+      "target": "Atomic and molecular astrophysics"
+    },
+    {
+      "source": "Physics",
+      "target": "Atomic nuclei"
+    },
+    {
+      "source": "Physics",
+      "target": "Atomic nucleus"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "15.ai"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "2001: A Space Odyssey"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "2001: A Space Odyssey (novel)"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "2024 Indian general election"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "3D optical data storage"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "A* search algorithm"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "A.I. Artificial Intelligence"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "AAAI"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "ABB"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "ACM Computing Classification System"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "ACM Conference on Fairness, Accountability, and Transparency"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "ACM SIGPLAN Notices"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "AI-assisted software development"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "AI-generated content on Wikipedia"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "AI (disambiguation)"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "AI Overviews"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "AI Safety Institute (United Kingdom)"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "AI Safety Summit"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "AI Seoul Summit"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "AI Winter"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "AI aftermath scenarios"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "AI alignment"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "AI art"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "AI boom"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "AI bubble"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "AI capability control"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "AI effect"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "AI safety"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "AI takeover"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "AI winter"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "ALGOL 60"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "A priori and a posteriori"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "Abductive reasoning"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "Abstract and concrete"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "Academic journal"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "Academic research"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "Accelerating change"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "Action selection"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "Activation function"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "AdSense"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "Adaptable robotics"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "Adobe Firefly"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "Advanced driver-assistance system"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "Adversarial machine learning"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "Adversarial search"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "Aerobot"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "Aeronautics"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "Affect (psychology)"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "Affective computing"
+    },
+    {
+      "source": "Artificial intelligence",
+      "target": "Agency (philosophy)"
+    }
+  ]
+}
