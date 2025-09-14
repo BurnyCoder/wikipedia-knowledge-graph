@@ -41,7 +41,7 @@ def send_static(path):
     return send_from_directory('static', path)
 
 if __name__ == '__main__':
-    port = 5000
+    port = int(os.environ.get('FLASK_RUN_PORT', 5000))
     print(f'Knowledge Graph Visualization running at http://localhost:{port}')
     print('Open this URL in your browser to view the visualization')
-    app.run(debug=True, port=port, host='0.0.0.0')
+    app.run(debug=False, port=port, host='0.0.0.0', use_reloader=False)

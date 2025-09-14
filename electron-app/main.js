@@ -156,13 +156,11 @@ function launchFlask() {
     // Start Flask server with a different port to avoid conflicts
     const appPath = path.join(__dirname, '..', 'app.py');
     
-    // Modify the Flask app to run on port 5556
-    flaskProcess = spawn('python', ['-c', `
-import sys
-sys.path.insert(0, '${path.dirname(appPath)}')
-from app import app
-app.run(port=5556, debug=False, use_reloader=False)
-    `]);
+    // Change to parent directory and run Flask app
+    flaskProcess = spawn('python', [appPath], {
+        cwd: path.join(__dirname, '..'),
+        env: { ...process.env, FLASK_RUN_PORT: '5556' }
+    });
 
     flaskProcess.stdout.on('data', (data) => {
         console.log(`Flask: ${data}`);

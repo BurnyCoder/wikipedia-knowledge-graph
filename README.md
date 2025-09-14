@@ -1,10 +1,16 @@
 # Wikipedia Knowledge Graph Visualization
 
-An interactive knowledge graph visualization that connects Wikipedia articles starting from key science and mathematics topics. Available in both **Python** and **Node.js** implementations.
+An interactive knowledge graph visualization that connects Wikipedia articles starting from key science and mathematics topics. Available in **Python**, **Node.js**, and as a **Desktop Application**.
 
 <img width="1884" height="894" alt="image" src="https://github.com/user-attachments/assets/d555f22b-8f57-491b-9460-b872d231a7d3" />
 
 <img width="1099" height="1079" alt="image" src="https://github.com/user-attachments/assets/6faea7e3-7782-44ba-806f-3bfeec58406f" />
+
+## Current Graph Statistics
+- **3,860 nodes** representing Wikipedia articles
+- **4,588 edges** showing connections between articles
+- **6 primary nodes**: Science, Natural Science, Formal Science, Mathematics, Physics, and Artificial Intelligence
+- **Artificial Intelligence** has the most connections (1,859 links)
 
 ## Features
 
@@ -143,37 +149,41 @@ To add more primary nodes or change the visualization:
 
 The project includes a standalone desktop application built with Electron that runs the visualization in a native window.
 
-### Running the Desktop App
+### Quick Start - Desktop App
 
-#### Option 1: Electron App (Recommended)
 ```bash
-# Install Electron dependencies
+# Clone the repository
+git clone https://github.com/BurnyCoder/wikipedia-knowledge-graph.git
+cd wikipedia-knowledge-graph
+
+# Build the graph data (if not already present)
+python build_graph.py
+
+# Run the Electron desktop app
 cd electron-app
 npm install
-
-# Run the desktop app
 npm start
 ```
 
-#### Option 2: Python with PyWebView
-```bash
-# Install dependencies
-pip install -r requirements.txt
+### Alternative Launch Methods
 
-# Run the desktop app
+#### Option 1: Python with PyWebView (requires GTK or QT)
+```bash
+pip install -r requirements.txt
 python desktop_app.py
 ```
 
-#### Option 3: Quick Launch Scripts
+#### Option 2: Quick Launch Scripts
 - **Linux/Mac**: Run `./run_desktop.sh`
 - **Windows**: Run `run_desktop.bat`
 
 ### Desktop Features
-- Native application window
-- Menu bar with rebuild option
-- Zoom controls
-- Developer tools for debugging
+- Native application window with embedded browser
+- Menu bar with graph rebuild option
+- Zoom controls (Ctrl+/-, Ctrl+0)
+- Developer tools for debugging (Ctrl+Shift+I)
 - Cross-platform support (Windows, macOS, Linux)
+- Automatic Flask backend management
 
 ## License
 

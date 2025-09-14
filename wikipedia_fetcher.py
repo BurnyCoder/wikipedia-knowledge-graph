@@ -4,6 +4,10 @@ import time
 class WikipediaFetcher:
     def __init__(self):
         self.base_url = 'https://en.wikipedia.org/w/api.php'
+        # Set a proper User-Agent header as required by Wikipedia
+        self.headers = {
+            'User-Agent': 'all-knowledge-graph/1.0 (https://github.com/user/all-knowledge-graph; user@example.com)'
+        }
     
     def fetch_page_links(self, page_title):
         """Fetch all links from a Wikipedia page."""
@@ -25,8 +29,16 @@ class WikipediaFetcher:
                 params['plcontinue'] = continue_token
             
             try:
-                response = requests.get(self.base_url, params=params)
-                data = response.json()
+                response = requests.get(self.base_url, params=params, headers=self.headers)
+                response.raise_for_status()  # Raise an exception for HTTP errors
+                
+                # Check if response is actually JSON
+                if response.headers.get('Content-Type', '').startswith('application/json'):
+                    data = response.json()
+                else:
+                    print(f"Unexpected content type: {response.headers.get('Content-Type')}")
+                    print(f"Response text: {response.text[:200]}")
+                    return all_links
                 
                 pages = data['query']['pages']
                 page_id = list(pages.keys())[0]
