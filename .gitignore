@@ -6,3 +6,13 @@ npm-debug.log*
 .vscode/
 *.swp
 *.swo
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+electron-app/node_modules/
+electron-app/dist/
+dist/
+build/

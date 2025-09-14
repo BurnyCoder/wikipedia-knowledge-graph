@@ -139,6 +139,42 @@ To add more primary nodes or change the visualization:
 - Edit `build-graph.js` - Modify the `primaryNodes` array
 - Edit `visualization.js` - Adjust colors, sizes, and physics parameters
 
+## Desktop Application
+
+The project includes a standalone desktop application built with Electron that runs the visualization in a native window.
+
+### Running the Desktop App
+
+#### Option 1: Electron App (Recommended)
+```bash
+# Install Electron dependencies
+cd electron-app
+npm install
+
+# Run the desktop app
+npm start
+```
+
+#### Option 2: Python with PyWebView
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the desktop app
+python desktop_app.py
+```
+
+#### Option 3: Quick Launch Scripts
+- **Linux/Mac**: Run `./run_desktop.sh`
+- **Windows**: Run `run_desktop.bat`
+
+### Desktop Features
+- Native application window
+- Menu bar with rebuild option
+- Zoom controls
+- Developer tools for debugging
+- Cross-platform support (Windows, macOS, Linux)
+
 ## License
 
 MIT

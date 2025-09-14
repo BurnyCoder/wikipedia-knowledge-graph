@@ -1,0 +1,34 @@
+{
+  "name": "wikipedia-knowledge-graph-desktop",
+  "version": "1.0.0",
+  "description": "Wikipedia Knowledge Graph Desktop Application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "dist": "electron-builder --dir"
+  },
+  "keywords": ["wikipedia", "knowledge-graph", "visualization"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^27.0.0",
+    "electron-builder": "^24.0.0"
+  },
+  "build": {
+    "appId": "com.wikipedia.knowledgegraph",
+    "productName": "Wikipedia Knowledge Graph",
+    "directories": {
+      "output": "dist"
+    },
+    "mac": {
+      "category": "public.app-category.education"
+    },
+    "linux": {
+      "target": "AppImage"
+    },
+    "win": {
+      "target": "nsis"
+    }
+  }
+}
