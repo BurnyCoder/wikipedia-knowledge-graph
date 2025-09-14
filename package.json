@@ -1,0 +1,20 @@
+{
+  "name": "all-knowledge-graph",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.12.1",
+    "d3": "^7.9.0",
+    "electron": "^38.1.0",
+    "electron-builder": "^26.0.12"
+  }
+}

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia Knowledge Graph</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            overflow: hidden;
+        }
+
+        #container {
+            display: flex;
+            height: 100vh;
+        }
+
+        #sidebar {
+            width: 300px;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+            overflow-y: auto;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        #graph-container {
+            flex: 1;
+            position: relative;
+        }
+
+        #graph {
+            width: 100%;
+            height: 100%;
+        }
+
+        .controls {
+            margin-bottom: 20px;
+        }
+
+        button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background: #5a67d8;
+        }
+
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        #status {
+            padding: 10px;
+            background: #f0f0f0;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+
+        #stats {
+            background: #f9f9f9;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .stat-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .stat-item:last-child {
+            border-bottom: none;
+        }
+
+        .loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        .spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 10px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .node-label {
+            font-size: 10px;
+            pointer-events: none;
+        }
+
+        .tooltip {
+            position: absolute;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            border-radius: 5px;
+            pointer-events: none;
+            font-size: 12px;
+            z-index: 1000;
+        }
+
+        select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin: 5px 0;
+        }
+
+        input[type="range"] {
+            width: 100%;
+            margin: 10px 0;
+        }
+
+        .range-label {
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="sidebar">
+            <h1>Wikipedia Knowledge Graph</h1>
+
+            <div id="status">Ready to load data</div>
+
+            <div class="controls">
+                <button id="loadDataBtn">Load Wikipedia Data</button>
+                <button id="resetViewBtn">Reset View</button>
+                <button id="toggleLabelsBtn">Toggle Labels</button>
+            </div>
+
+            <div>
+                <label>Links per page:</label>
+                <select id="linksPerPage">
+                    <option value="50">50 links</option>
+                    <option value="100" selected>100 links</option>
+                    <option value="200">200 links</option>
+                    <option value="500">500 links (slow)</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Node Size:</label>
+                <input type="range" id="nodeSize" min="3" max="20" value="8">
+                <div class="range-label">
+                    <span>Small</span>
+                    <span>Large</span>
+                </div>
+            </div>
+
+            <div>
+                <label>Link Distance:</label>
+                <input type="range" id="linkDistance" min="50" max="300" value="150">
+                <div class="range-label">
+                    <span>Close</span>
+                    <span>Far</span>
+                </div>
+            </div>
+
+            <div id="stats">
+                <h3>Graph Statistics</h3>
+                <div class="stat-item">
+                    <span>Nodes:</span>
+                    <span id="nodeCount">0</span>
+                </div>
+                <div class="stat-item">
+                    <span>Links:</span>
+                    <span id="linkCount">0</span>
+                </div>
+                <div class="stat-item">
+                    <span>Primary Nodes:</span>
+                    <span id="primaryCount">6</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="graph-container">
+            <svg id="graph"></svg>
+            <div id="loading" class="loading" style="display: none;">
+                <div class="spinner"></div>
+                <div>Loading Wikipedia data...</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="node_modules/d3/dist/d3.min.js"></script>
+    <script src="renderer.js"></script>
+</body>
+</html>
